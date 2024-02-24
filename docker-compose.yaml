@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  optimizt-watcher:
+    image: ghcr.io/cn-tools/docker-optimizt-watcher:main
+    restart: unless-stopped
+    container_name: Optimizt-Watcher
+    volumes:
+      - /your/input:/src/input
+      - /your/output:/src/output

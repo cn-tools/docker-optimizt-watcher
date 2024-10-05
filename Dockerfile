@@ -1,7 +1,7 @@
 # special thx to https://github.com/343dev
 # based on https://github.com/343dev/optimizt/issues/4
 
-FROM node:18.20.3-bullseye-slim
+FROM node:hydrogen-bullseye-slim
 
 WORKDIR /app
 
